@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1a472a, #2a5a3a);
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.container::before {
+  content: "⛳";
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 100px;
+  opacity: 0.1;
+  transform: rotate(15deg);
+}
+
+h1 {
+  color: #1a472a;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.challenge-box {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 15px;
+  margin: 1.5rem 0;
+  position: relative;
+  border: 2px solid #e9ecef;
+}
+
+.challenge-text {
+  font-size: 1.5rem;
+  color: #2a5a3a;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.refresh-btn {
+  background: #1a472a;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.refresh-btn:hover {
+  background: #2a5a3a;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .challenge-text {
+    font-size: 1.2rem;
+  }
+}
