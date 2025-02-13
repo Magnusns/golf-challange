@@ -6,7 +6,7 @@ const challenges = [
   "Alle spillere på laget får en mulligan på hullet",
   "Lander ballen utenfor Fairway vil laget få + 1 slag på totalt score",
   "Spill hele hullet med 5 wood",
-  "Birdie teller som Eagle",
+  "Oppgrader birdie til eagle på dette hullet",
   "Utslag fra tee med buksene nede"
 ]
 
@@ -26,12 +26,12 @@ function App() {
   return (
     <div className="app">
       <div className="container">
-        <h1>Golf Utfordring! 🏌️‍♂️</h1>
+        <h1>UTFORDRING</h1>
         <div className="challenge-box">
-          <p className="challenge-text">{challenge}</p>
+          <div className="challenge-text">{challenge}</div>
         </div>
         <button onClick={getNewChallenge} className="refresh-btn">
-          Ny Utfordring 🎯
+          NESTE UTFORDRING
         </button>
       </div>
     </div>
