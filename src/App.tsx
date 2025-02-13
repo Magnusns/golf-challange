@@ -6,7 +6,7 @@ const challenges = [
   "Alle spillere på laget får en mulligan på hullet",
   "Lander ballen utenfor Fairway vil laget få + 1 slag på totalt score",
   "Spill hele hullet med 5 wood",
-  "Birdie = Eagle",
+  "Birdie teller som Eagle",
   "Utslag fra tee med buksene nede"
 ]
 
