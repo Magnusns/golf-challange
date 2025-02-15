@@ -7,7 +7,11 @@ const challenges = [
   "Lander ballen utenfor Fairway vil laget få + 1 slag på totalt score",
   "Spill hele hullet med 5 wood",
   "Oppgrader birdie til eagle på dette hullet",
-  "Utslag fra tee med buksene nede"
+  "Utslag fra tee med buksene nede",
+  "Spill hele hullet med kun 2 køller",
+  "Spill hele hullet med kun 7er jern",
+  "Bogey blir dobbell bogey",
+  "Spill hele hullet uten å snakke, snakker du får lage + 1 slag"
 ]
 
 function App() {
